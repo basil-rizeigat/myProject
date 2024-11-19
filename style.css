@@ -189,6 +189,7 @@ main {
   width: 90%;
   height: 95%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 .Videos-container {
   display: flex;
@@ -198,7 +199,7 @@ main {
 }
 .videos {
   margin-top: 12px;
-  width: 330px;
+  width: 300px;
   margin-bottom: 40px;
   cursor: pointer;
   transition: 0.4s;
@@ -238,7 +239,6 @@ main {
   margin-bottom: 4px;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 .video-creator,
@@ -247,4 +247,18 @@ main {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 400;
+}
+/* footer style  */
+footer {
+  width: 100%;
+  background-color: red;
+  color: #c6c6c6;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
 }
