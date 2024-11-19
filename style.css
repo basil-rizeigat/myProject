@@ -189,16 +189,16 @@ main {
   width: 90%;
   height: 95%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 .Videos-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 .videos {
   margin-top: 12px;
-  width: 330px;
+  width: 300px;
   margin-bottom: 40px;
   cursor: pointer;
   transition: 0.4s;
